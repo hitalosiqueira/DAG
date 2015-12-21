@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{%block content%}
+
+<div>
+<div >
+	<div>
+		<div class = "jumbotron">
+		<div id = "formulario">
+		<form method='POST' action=''> {% csrf_token %}
+			{{ formulario|crispy }}
+			<div class="container col-md-12" id = "botoes">
+			<button class="btn btn-primary" type="submit" name="fonteNatureza" class="btn btn-default">Buscar Despesas</button>
+			<button class="btn btn-primary" type="submit" name="valorMaximo" class="btn btn-default">Buscar Valores Maximos</button>
+			<button class="btn btn-primary" type="submit" name="valorMinimo" class="btn btn-default">Buscar Valores Mínimo</button>
+			<button class="btn btn-primary" type="submit" name="valorMedia" class="btn btn-default">Buscar Media das Despesas</button>
+			</div>
+		</form>
+		</div>
+		</div>
+	</div>
+</div>
+	{%if results%}
+	<div id="painel">
+		<div class="panel panel-primary">
+			<div class="panel-heading">Resultados</div>
+			<div class="panel-body table-responsive">
+			<table class="table container-fluid" id="example">
+					<thead>
+						<tr>
+							<th style="text-align:center">Código</th>
+							<th style="text-align:center">Data</th>
+							<th style="text-align:center">Valor</th>
+							<th style="text-align:center">Município</th>
+							<th style="text-align:center">Orgão</th>
+							<th style="text-align:center">Natureza</th>
+							<th style="text-align:center">Fonte</th>
+						</tr>
+					</thead>                                      
+					<tbody>
+						{% for r in results %}
+						<tr>
+							<td style="text-align:center">{{ r.0 }}</td>
+							<td style="text-align:center">{{ r.1 }}</td>
+							<td style="text-align:center">{{ r.2 }}</td>
+							<td style="text-align:center">{{ r.3 }}</td>
+							<td style="text-align:center">{{ r.4 }}</td>
+							<td style="text-align:center">{{ r.5 }}</td>
+							<td style="text-align:center">{{ r.6 }}</td>
+						</tr>
+						{% endfor %}
+					</tbody> 
+					<thead>
+						<tr>
+							<th style="text-align:center">Código</th>
+							<th style="text-align:center">Data</th>
+							<th style="text-align:center">Valor</th>
+							<th style="text-align:center">Município</th>
+							<th style="text-align:center">Orgão</th>
+							<th style="text-align:center">Natureza</th>
+							<th style="text-align:center">Fonte</th>
+						</tr>
+					</thead>                                           
+				</table>
+			</div>
+		</div>
+		<div id = "botoes">
+			<button onClick ="$('#example').tableExport({type:'pdf',escape:'false'});" class="btn btn-primary">Salvar em PDF</button>
+			<button onClick ="$('#example').tableExport({type:'csv',escape:'false'});" class="btn btn-primary">Salvar em CSV</button>
+		</div>
+		{%endif%}
+<!-- 		<div class="pagination">
+			<span class="step-links">
+				{% if results.has_previous %}
+				<a href="?page={{ results.previous_page_number }}">anterior</a>
+				{% endif %}
+
+				<span class="current">
+					Página {{ results.number }} de {{ results.paginator.num_pages }}.
+				</span>
+
+				{% if results.has_next %}
+				<a href="?page={{ results.next_page_number }}">Próxima</a>
+				{% endif %}
+			</span>
+		</div> -->
+	</div>
+</div>
+
+{%endblock%}

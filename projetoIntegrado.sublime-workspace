@@ -1,0 +1,379 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"resul",
+				"results_json"
+			],
+			[
+				"resu",
+				"results_json"
+			],
+			[
+				"results_",
+				"results_json"
+			],
+			[
+				"re",
+				"results_json"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"se",
+				"serializers"
+			],
+			[
+				"fonte",
+				"fonteNatureza"
+			],
+			[
+				"result_",
+				"results_json"
+			],
+			[
+				"results",
+				"results_json"
+			],
+			[
+				"inde",
+				"index_pagination"
+			],
+			[
+				"ende",
+				"endlessPaginate"
+			],
+			[
+				"pag",
+				"pagination"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"FormPesq",
+				"FormPesquisaValorMaximo"
+			],
+			[
+				"formulario",
+				"formularioValorMax"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"Pa",
+				"PageNotAnInteger"
+			],
+			[
+				"r",
+				"rowcount"
+			],
+			[
+				"reul",
+				"result_set"
+			],
+			[
+				"cl",
+				"cleaned_data"
+			],
+			[
+				"for",
+				"formulario"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"pr",
+				"printf	printf …"
+			],
+			[
+				"no",
+				"novoNo"
+			],
+			[
+				"inse",
+				"insereFim"
+			],
+			[
+				"vert",
+				"vertice"
+			],
+			[
+				"in",
+				"insereFim"
+			],
+			[
+				"lista",
+				"listaAdj"
+			],
+			[
+				"inc",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/hitalo/djangoPython/src/projetoIntegrado/settings.py",
+		"/mnt/D07662BE7662A4C6/Downloads/jogador.jsp",
+		"/home/hitalo/djangoPython/src/templates/base.html",
+		"/home/hitalo/djangoPython/src/templates/navbar.html",
+		"/home/hitalo/Documentos/scriptsLabBD.sql",
+		"/home/hitalo/djangoPython/src/static_project/static/css/estilo.css",
+		"/home/hitalo/djangoPython/src/templates/index.html",
+		"/home/hitalo/djangoPython/src/templates/head_css.html",
+		"/home/hitalo/djangoPython/src/templates/javascript.html",
+		"/home/hitalo/djangoPython/src/DAG/views.py",
+		"/home/hitalo/djangoPython/src/projetoIntegrado/urls.py",
+		"/home/hitalo/djangoPython/Leia-me.txt",
+		"/home/hitalo/Documentos/esquema",
+		"/home/hitalo/Documentos/scripts.sql",
+		"/home/hitalo/djangoPython/src/templates/results.json",
+		"/home/hitalo/djangoPython/src/templates/index_pagination.html",
+		"/home/hitalo/djangoPython/src/static_project/static/js/endlessPagination.js",
+		"/home/hitalo/djangoPython/src/DAG/ajax.py",
+		"/home/hitalo/djangoPython/src/templates/index_pagination",
+		"/home/hitalo/djangoPython/src/DAG/forms.py",
+		"/home/hitalo/djangoPython/src/DAG/__init__.py",
+		"/mnt/D07662BE7662A4C6/linux/NetBeansProjects/CopaNews/web/jogador.jsp",
+		"/home/hitalo/djangoPython/src/DAG/models.py",
+		"/mnt/D07662BE7662A4C6/Downloads/resultadoDominio (1).jsp",
+		"/mnt/D07662BE7662A4C6/Downloads/resultadoDominio.jsp",
+		"/home/hitalo/djangoPython/src/templates/head_meta.html",
+		"/home/hitalo/djangoPython/src/static_project/static/js/bootstrap.min.js",
+		"/home/hitalo/djangoPython/src/static_project/static/js/jquery.min.js",
+		"/home/hitalo/djangoPython/src/DAG/mudanca",
+		"/home/hitalo/djangoPython/src/staticProject/ourStatic/imagens/opa.txt",
+		"/home/hitalo/djangoPython/src/templates/pesquisaResultado.html",
+		"/mnt/D07662BE7662A4C6/Downloads/stored-procedure.sql",
+		"/home/hitalo/djangoPython/src/DAG/admin.py",
+		"/home/hitalo/djangoPython/src/db.sqlite3",
+		"/home/hitalo/djangoPython/src/models.p",
+		"/home/hitalo/Documentos/Grafos/t2/t2-hitalos.c",
+		"/home/hitalo/Documentos/Complexidade/t2/t2-hitalos.c",
+		"/home/hitalo/Documentos/pyProjects/projetoIntegrado/projetoIntegrado/settings.py",
+		"/home/hitalo/projetoteste/models.py",
+		"/home/hitalo/projetoteste/projetoteste/settings.py",
+		"/home/hitalo/teste/teste/settings.py",
+		"/home/hitalo/Documentos/Complexidade/t2/t2.sol",
+		"/home/hitalo/Documentos/Complexidade/t2/t2.my.sol",
+		"/home/hitalo/Documentos/Complexidade/t2/t2.in",
+		"/home/hitalo/Downloads/t2-hitalos.c",
+		"/mnt/D07662BE7662A4C6/Área de Trabalho/Projeto/Control.VHD",
+		"/mnt/D07662BE7662A4C6/Área de Trabalho/Projeto/DMEMORY.VHD",
+		"/mnt/D07662BE7662A4C6/Área de Trabalho/Projeto/Execute.VHD",
+		"/mnt/D07662BE7662A4C6/Área de Trabalho/Projeto/Exp05.vhd",
+		"/mnt/D07662BE7662A4C6/Área de Trabalho/Projeto/Idecode.VHD",
+		"/mnt/D07662BE7662A4C6/Área de Trabalho/Projeto/Ifetch.vhd",
+		"/mnt/D07662BE7662A4C6/Documentos/skyrim/Saves/ts/Nova pasta/rrrr.csv",
+		"/home/hitalo/Documentos/LabBD/otimizacaoConsultas.tex",
+		"/home/hitalo/Documentos/Grafos/t2/t2.in",
+		"/home/hitalo/Documentos/LabBD/DAG_data.backup",
+		"/home/hitalo/Documentos/Grafos/t2/t2.sol",
+		"/home/hitalo/Documentos/Grafos/t2/t2.my.sol",
+		"/home/hitalo/Documentos/Grafos/t2/teste.c",
+		"/home/hitalo/Documentos/Grafos/t2/t1-igorffc.c",
+		"/home/hitalo/Documentos/Grafos/t1/t1-hitalos.c"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\":\"",
+			"\"",
+			"r",
+			"\":\"",
+			"]))\n",
+			"\":\"",
+			"\":",
+			",",
+			"	",
+			"index",
+			"fluid",
+			"fixed",
+			"ajax",
+			"result_se",
+			"contacts",
+			")",
+			"label",
+			"droga",
+			"vini",
+			";\n",
+			"halls",
+			"boquete",
+			"estacionamento",
+			"nude",
+			"espanhola",
+			"printf",
+			"insere"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "projetoIntegrado.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

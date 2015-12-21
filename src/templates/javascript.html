@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+<script src="{% static 'js/jspdf.js' %}"></script>
+<script src="{% static 'js/sprintf.js' %}"></script>
+<script src="{% static 'js/tableExport.js' %}"></script>
+<script src="{% static 'js/base64.js' %}"></script>
+<script src="{% static 'js/jquery.base64.js' %}"></script>
+
+
+<script src="{% static 'js/jquery.dataTables.js' %}"></script>
+<script src="{% static 'js//jquery-DT-pagination.js' %}"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+    $('#example').dataTable( {
+    	"sPaginationType": "bootstrap"
+    } );
+} );
+</script>

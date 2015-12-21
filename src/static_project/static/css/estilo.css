@@ -1,0 +1,47 @@
+#painel {
+    padding-bottom: 3%;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Droid Sans, Tahoma;
+    color: #000;
+}
+
+body {
+    background-image: url('../img/fundo.jpg');
+    background-color: #666666;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: Droid Sans, Tahoma;
+}
+
+#formulario {
+    padding-bottom: 3%;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Droid Sans, Tahoma;
+    color: #000;
+}
+
+#inicio {
+    padding-bottom: 3%;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Droid Sans, Tahoma;
+    color: #000;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+}
+
+#texto{
+	font-weight: bold;
+	font-size: 14px;
+	text-align: justify;
+}
+
+tbody{
+    font-weight: normal;
+}
